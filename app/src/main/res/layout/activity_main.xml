@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/gray">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="411dp"-->
+<!--        android:layout_height="108dp"-->
+<!--        android:background="@color/FinaGreen"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignBottom="@+id/toolbar"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginStart="101dp"-->
+<!--        android:layout_marginLeft="35dp"-->
+<!--        android:layout_marginTop="22dp"-->
+<!--        android:layout_marginEnd="100dp"-->
+<!--        android:layout_marginBottom="22dp"-->
+<!--        android:text="FinaTrack"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="48sp"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/toolbar"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/toolbar"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.363"-->
+<!--        android:textAlignment="center"/>-->
+
+
+    <TextView
+        android:id="@+id/MonthlyIncomeVsExpenseID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="290dp"
+        android:background="@color/white"
+        android:onClick="MonthlyIncomeVsExpenses"
+        android:padding="35dp"
+        android:text="Monthly Income Vs Expenses"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/IncomeVsBillsID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="450dp"
+        android:background="@color/white"
+        android:onClick="IncomeVsBills"
+        android:padding="35dp"
+        android:text="Income Vs Bills"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/toolbar"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="13dp"-->
+<!--        android:layout_marginTop="229dp"-->
+<!--        android:layout_marginEnd="12dp"-->
+<!--        android:layout_marginBottom="292dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:padding="35dp"-->
+<!--        android:text="Income Vs Bills"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textSize="24sp" />-->
+
+    <TextView
+        android:id="@+id/MonthlyAnalysisID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="138dp"
+        android:background="@color/white"
+        android:onClick="MonthlyAnalysis"
+        android:padding="35dp"
+        android:text="Monthly Analysis"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:layout_marginStart="125dp"-->
+<!--        android:layout_marginEnd="122dp"-->
+<!--        android:layout_marginBottom="294dp"-->
+<!--        android:background="@color/white"-->
+<!--        android:text="Income Vs Bills"-->
+<!--        android:textSize="24sp" />-->
+
+
+</RelativeLayout>
