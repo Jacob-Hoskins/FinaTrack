@@ -43,17 +43,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/AddBillID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="512dp"
         android:text="Add Bill"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="AddBillDialog"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/DeleteBillID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="616dp"
